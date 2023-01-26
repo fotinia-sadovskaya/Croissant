@@ -1,4 +1,6 @@
 body {
+    display: block;
+        margin: 30px 35px auto;
   background: #41c3be;
 }
 
@@ -14,8 +16,9 @@ h1 {
 }
 
 p {
+     line-height: 1.5;
   text-align: center;
-  color: #2a769a;
+  color: #023f5c;
   font-size: 18px;
   font-weight: lighter;
   margin: 20px 0 10px;
@@ -36,6 +39,7 @@ footer {
 }
 
 footer a {
+    text-decoration: none;
   margin: 0 10px;
   color: rgb(247, 247, 247);
 }
