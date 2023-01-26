@@ -1,9 +1,5 @@
 body {
-  display: block;
-  max-width: 600px;
-  margin: 0px auto;
-  padding: 30px 60px;
-  background: linear-gradient(to top, #41c3be 0%, #2a769a 100%);
+  background: #41c3be;
 }
 
 h1 {
@@ -19,20 +15,32 @@ h1 {
 
 p {
   text-align: center;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 20px 0 10px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .croissant-photo {
-  max-width: 100%;
-  border-radius: 10px;
-  display: block;
-  margin: 30px auto;
+   
+        display: block;
+        margin: 30px auto;
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 footer {
   text-align: center;
 }
 
-footer a {
-  margin: 0 10px;
-  color: green;
-}
+  a {
+        color: #fff;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
