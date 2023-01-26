@@ -35,12 +35,7 @@ footer {
   text-align: center;
 }
 
-  a {
-        color: #fff;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-        cursor: pointer;
-      }
-
+footer a {
+  margin: 0 10px;
+  color: rgb(247, 247, 247);
+}
