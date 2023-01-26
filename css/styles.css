@@ -1,6 +1,8 @@
 body {
   display: block;
-  margin: 8px;
+  max-width: 600px;
+  margin: 0px auto;
+  padding: 30px 60px;
   background: linear-gradient(to top, #41c3be 0%, #2a769a 100%);
 }
 
