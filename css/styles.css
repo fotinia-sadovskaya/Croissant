@@ -45,3 +45,7 @@ footer a {
   margin: 0 10px;
   color: rgb(247, 247, 247);
 }
+footer a:hover {
+  color: #f7f36b;
+  font-size: 20px;
+}
